@@ -1,5 +1,7 @@
 #[allow(unused_variables)]
-mod strings;
+//mod strings;
+mod fn_intro;
 fn main() {
-    strings::run();
+    //strings::run();
+    fn_intro::run();
 }
