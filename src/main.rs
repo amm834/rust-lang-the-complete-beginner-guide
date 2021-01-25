@@ -1,3 +1,5 @@
+#[allow(unused_variables)]
+mod strings;
 fn main() {
-    println!("Hello, world!");
+    strings::run();
 }
