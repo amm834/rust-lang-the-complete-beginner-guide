@@ -4,11 +4,13 @@
 //mod fn_intro;
 //mod array;
 //mod random;
-mod vectors;
+//mod vectors;
+mod slices;
 fn main() {
     //strings::run();
     //fn_intro::run();
     //random::run();
     //array::run();
-    vectors::run();
+    //vectors::run();
+    slices::run();
 }
