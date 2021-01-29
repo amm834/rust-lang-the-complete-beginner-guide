@@ -7,7 +7,8 @@
 //mod vectors;
 //mod slices;
 //mod tuples;
-mod structures;
+//mod structures;
+mod enums;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -16,5 +17,6 @@ fn main() {
     //vectors::run();
     //slices::run();
     //tuples::run();
-    structures::run();
+    //structures::run();
+    enums::run();
 }
