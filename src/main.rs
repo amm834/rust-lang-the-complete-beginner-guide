@@ -6,7 +6,8 @@
 //mod random;
 //mod vectors;
 //mod slices;
-mod tuples;
+//mod tuples;
+mod structures;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -14,5 +15,6 @@ fn main() {
     //array::run();
     //vectors::run();
     //slices::run();
-    tuples::run();
+    //tuples::run();
+    structures::run();
 }
