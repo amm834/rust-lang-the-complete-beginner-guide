@@ -1,22 +1,21 @@
 use crate::enums::Colors::Green;
 use crate::enums::Person::Name;
-pub fn run(){
-    println!("{:?}",Colors::Red);
-    println!("{:?}",Green);
-    println!("{:?}",Name(String::from("Aung Myat Moe")));
-    
+pub fn run() {
+    println!("{:?}", Colors::Red);
+    println!("{:?}", Green);
+    println!("{:?}", Name(String::from("Aung Myat Moe")));
 }
 
 #[derive(Debug)]
-enum Colors{
+enum Colors {
     Red,
     Green,
-    Blue
+    Blue,
 }
 
 #[derive(Debug)]
-enum Person{
+enum Person {
     Name(String),
     Age(u64),
-    Company(String)
+    Company(String),
 }

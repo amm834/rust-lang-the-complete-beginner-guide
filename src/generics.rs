@@ -1,37 +1,36 @@
 use crate::generics::Colors::Green;
 pub fn run() {
-    let person1: Person<&str > = Person {
+    let person1: Person<&str> = Person {
         name: "Aung Myat Moe",
-        company: "Google"
+        company: "Google",
     };
-    let person2: Person<&str > = Person {
+    let person2: Person<&str> = Person {
         name: "Aung Myat Moe 2",
-        company: "FB"
+        company: "FB",
     };
     println!("{:?}", person1);
     println!("{:?}", person2);
     let color = Green("#f80");
-    println!("{:?}",color);
-    
-    let points:Point<i32,f64> = Point {x:10,y:32.6};
-    println!("{:?}",points);
-    
+    println!("{:?}", color);
+
+    let points: Point<i32, f64> = Point { x: 10, y: 32.6 };
+    println!("{:?}", points);
 }
 
 #[derive(Debug)]
-struct Person < T > {
+struct Person<T> {
     name: T,
-    company: T
+    company: T,
 }
 
 #[derive(Debug)]
-enum Colors<T>{
+enum Colors<T> {
     Green(T),
-    Blue(T)
+    Blue(T),
 }
 
 #[derive(Debug)]
-struct Point<T,V>{
-    x:T,
-    y:V
+struct Point<T, V> {
+    x: T,
+    y: V,
 }
