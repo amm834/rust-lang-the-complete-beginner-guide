@@ -12,7 +12,8 @@
 //mod generics;
 //mod ifstatement;
 //mod matchexp;
-mod pattern;
+//mod pattern;
+mod forloop;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -26,5 +27,6 @@ fn main() {
     //generics::run();
     //ifstatement::run();
     //matchexp::run();
-    pattern::run();
+    //pattern::run();
+    forloop::run();
 }
