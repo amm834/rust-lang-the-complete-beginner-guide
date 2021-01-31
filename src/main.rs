@@ -13,7 +13,8 @@
 //mod ifstatement;
 //mod matchexp;
 //mod pattern;
-mod forloop;
+//mod forloop;
+mod whileloop;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -28,5 +29,6 @@ fn main() {
     //ifstatement::run();
     //matchexp::run();
     //pattern::run();
-    forloop::run();
+    //forloop::run();
+    whileloop::run();
 }
