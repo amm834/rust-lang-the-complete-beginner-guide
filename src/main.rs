@@ -11,7 +11,8 @@
 //mod enums;
 //mod generics;
 //mod ifstatement;
-mod matchexp;
+//mod matchexp;
+mod pattern;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -24,5 +25,6 @@ fn main() {
     //enums::run();
     //generics::run();
     //ifstatement::run();
-    matchexp::run();
+    //matchexp::run();
+    pattern::run();
 }

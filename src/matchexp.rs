@@ -1,8 +1,4 @@
-use crate::matchexp::Colors::{
-    Green,
-    Red,
-    Blue
-};
+use crate::matchexp::Colors::{Blue, Green, Red};
 
 pub fn run() {
     check_color(Red);
@@ -13,26 +9,26 @@ pub fn run() {
     country(-1);
 }
 
-fn country(code:i32){
+fn country(code: i32) {
     let country = match code {
         95 => "Myanmar",
         45 => "Spain",
-        1..=999=>"Unknown",
-        _ => "Invalid"
+        1..=999 => "Unknown",
+        _ => "Invalid",
     };
-    println!("Country name is {}",country);
+    println!("Country name is {}", country);
 }
 
 enum Colors {
     Red,
     Green,
-    Blue
+    Blue,
 }
 
 fn check_color(color: Colors) {
     match color {
         Red => println!("♥️"),
         Green => println!("💚"),
-        Blue => println!("💙")
+        Blue => println!("💙"),
     }
 }
