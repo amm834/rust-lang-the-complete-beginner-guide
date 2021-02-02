@@ -14,7 +14,8 @@
 //mod matchexp;
 //mod pattern;
 //mod forloop;
-mod whileloop;
+//mod whileloop;
+mod scopes;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -30,5 +31,6 @@ fn main() {
     //matchexp::run();
     //pattern::run();
     //forloop::run();
-    whileloop::run();
+    //whileloop::run();
+    scopes::run();
 }
