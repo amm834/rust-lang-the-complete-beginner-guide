@@ -15,7 +15,8 @@
 //mod pattern;
 //mod forloop;
 //mod whileloop;
-mod scopes;
+//mod scopes;
+mod closure;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -32,5 +33,6 @@ fn main() {
     //pattern::run();
     //forloop::run();
     //whileloop::run();
-    scopes::run();
+    //scopes::run();
+    closure::run();
 }
