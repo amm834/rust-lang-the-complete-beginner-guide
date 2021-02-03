@@ -17,7 +17,8 @@
 //mod whileloop;
 //mod scopes;
 //mod closure;
-mod hof;
+//mod hof;
+mod mrules;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -36,5 +37,6 @@ fn main() {
     //whileloop::run();
     //scopes::run();
     //closure::run();
-    hof::run();
+    //hof::run();
+    mrules::run();
 }
