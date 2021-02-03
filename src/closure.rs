@@ -3,7 +3,7 @@ pub fn run(){
     println!("{}",a(17));
     let b = | x | println!("{}",x);
     b("Hello!");
-    let sum = |x,y|->i32{
+    let sum = |x,y| ->i32{
         let c = x + 1;
         let d = y + 1;
         c + d
