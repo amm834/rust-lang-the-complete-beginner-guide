@@ -18,7 +18,8 @@
 //mod scopes;
 //mod closure;
 //mod hof;
-mod mrules;
+//mod mrules;
+mod traits;
 fn main() {
     //strings::run();
     //fn_intro::run();
@@ -38,5 +39,6 @@ fn main() {
     //scopes::run();
     //closure::run();
     //hof::run();
-    mrules::run();
+    //mrules::run();
+    traits::run();
 }
